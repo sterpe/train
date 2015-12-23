@@ -1,0 +1,32 @@
+{
+  "name": "train",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "scripts/postinstall.sh",
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sterpe/train.git"
+  },
+  "author": "sterpe <srterpe@gmail.com> (https://github.com/sterpe)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sterpe/train/issues"
+  },
+  "homepage": "https://github.com/sterpe/train#readme",
+  "dependencies": {
+    "glue": "^2.4.0",
+    "good": "^6.4.0",
+    "good-console": "^5.2.0",
+    "good-file": "^5.1.1",
+    "good-http": "^5.1.0",
+    "hapi": "^11.1.2",
+    "inert": "^3.2.0"
+  },
+  "devDependencies": {
+    "standard": "^5.4.1"
+  }
+}
